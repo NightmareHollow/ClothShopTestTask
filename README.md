@@ -1,2 +1,14 @@
 # ClothShopTestTask
 There are folder with compiled game and work description. I used collaborate unity system to version control, so i can add you to project to access source.
+
+In this document, I would like to display the process of creating a prototype of a clothing store.
+At the first stage, I needed the basic idea and graphics to work with, to create the location, pixel graphics were chosen, the construction was based on tilemaps and tilesets. Next, the first prototype of a character was created to create a motion controller and a save system.
+At the second stage, it was necessary to choose the style of the game itself and find / create graphics suitable for it. After a long time of searching and working, the graphics were selected and ready to use, which marked the beginning of the third stage. (It should be noted that the project uses standard 2D skill animation, which is indispensable in the case when the character needs to be customized).
+At the third stage, a full-fledged character was created, animations were set up, and the controller was updated. Prototypes of objects of interaction were created and, accordingly, a way of interacting with them.
+At the fourth stage, dialogs were created that work on the basis of a dialog manager, a scriptable object with data for each dialog (the dialog of the first meeting, standard dialogues, as well as characters) for each character. The concept of interaction with objects based on the principle of polymorphism, the achievement function based on delegates and the possibility of expanding the dialog system when creating special numbers in the phrase class and connecting them with the system of static actions has been created.
+At the fifth stage, the design of the store was created, the basic principles of its operation, dynamic expansion depending on the seller, as well as the cells and data for each item of clothing based on the scriptable object.
+Sixth stage. A system was created for saving the character's clothing and, as a result, the ability to display it outside the store when re-entering the game.
+Seventh stage. A system of buying things was introduced, as well as saving and displaying them on the character. The save system works on a binary system and serializable classes. However, the system is very flexible and extensible. The character has a sheet of all clothing items, each of which has a sheet with all available clothing indices. The system can be changed if the trading system becomes more complex.
+Eighth stage. The design has been updated and brought to its logical conclusion, the management in stores, as well as all the key functions, are completely ready.
+Ninth stage. A chest of endless gold has been created, and character indicators have been added.
+Stage ten. Final code formatting, adding and updating the design, creating an exit popup and adding music.
