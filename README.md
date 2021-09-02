@@ -1,5 +1,5 @@
 # ClothShopTestTask
-There are folder with compiled game and work description. I used collaborate unity system to version control, so i can add you to project to access source.
+There are folder with compiled game and work description. I used collaborate unity system to version control, so i can add you to project to access source. The project uses a preservation system based on binary files. The file is saved in the root directory, name "player.who";
 
 In this document, I would like to display the process of creating a prototype of a clothing store.
 At the first stage, I needed the basic idea and graphics to work with, to create the location, pixel graphics were chosen, the construction was based on tilemaps and tilesets. Next, the first prototype of a character was created to create a motion controller and a save system.
